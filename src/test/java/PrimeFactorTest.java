@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.*;
 public class PrimeFactorTest {
 
     @Test
-    public void test1() {
+    public void testPrimefactorOf1() {
         PrimeFactor primefactor = new PrimeFactor();
         assertEquals(Arrays.asList(), primefactor.of(1));
 
